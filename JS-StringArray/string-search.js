@@ -8,14 +8,24 @@ const products = [
     'Purple color phone with laptop'
 ];
 
-const searching = 'laptop';
+// const searching = 'laptop';
 
 // indexOf
-const output = [];
+/* const output = [];
 for (const product of products) {
     if (product.toLowerCase().indexOf(searching) != -1) {
         output.push(product);
     }
 }
+ */
+// console.log(output);
 
-console.log(output);
+    const searching = 'phone';
+    const output = [];
+    for (const product of products) {
+        if (product.toLowerCase().includes(searching.toLowerCase())) {
+            output.push(product);
+        }
+    }
+
+    console.log(output);
