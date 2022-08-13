@@ -31,12 +31,22 @@ for (const product of products) {
 
     console.log(output);
  */
-    // startswith
 
-    const output = [];
+// startswith
+
+/*     const output = [];
     for(const product of products){
         if(product.toLowerCase().startsWith('lg')){
             output.push(product);
         }
     }
     console.log(output);
+ */
+
+const output = [];
+for (const product of products) {
+    if (product.toLowerCase().endsWith('laptop')) {
+        output.push(product);
+    }
+}
+console.log(output);
