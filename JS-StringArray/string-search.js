@@ -5,6 +5,7 @@ const products = [
     '1X59 Lenovo commercial Laptop',
     'LG supernova laptop',
     'HTC low price Phone',
+    'LG Stylish Fridge',
     'Purple color phone with laptop'
 ];
 
@@ -20,7 +21,7 @@ for (const product of products) {
  */
 // console.log(output);
 
-    const searching = 'phone';
+/*     const searching = 'phone';
     const output = [];
     for (const product of products) {
         if (product.toLowerCase().includes(searching.toLowerCase())) {
@@ -28,4 +29,14 @@ for (const product of products) {
         }
     }
 
+    console.log(output);
+ */
+    // startswith
+
+    const output = [];
+    for(const product of products){
+        if(product.toLowerCase().startsWith('lg')){
+            output.push(product);
+        }
+    }
     console.log(output);
