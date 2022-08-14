@@ -15,4 +15,13 @@ function addNumbers(num1, num2){
 const sum = addNumbers(23, 13, 50, 100, 414);
 console.log('sum', sum);
 
+function myFriends(names){
+    let friendsName = ' ';
+    for(part of arguments){
+        friendsName = friendsName + ' ' + part;
+    }
+    return friendsName;
+}
 
+const friends = myFriends('Akib', 'Jabed', 'Mushfik', 'Maruf');
+console.log(friends);
