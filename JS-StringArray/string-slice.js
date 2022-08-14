@@ -10,9 +10,13 @@ const starsAfter18 = anthem.slice(18);
 const smallSlice = anthem.slice(5, 8)
 // console.log(starsAfterFive);
 // console.log(starsAfter18);
-console.log(smallSlice);
+// console.log(smallSlice);
 
 
 // substr()
 const anotherPart = anthem.substr(5, 3);
-console.log(anotherPart);
+// console.log(anotherPart);
+
+// substring
+const anotherPartWithSubString = anthem.substring(5, 10);
+console.log(anotherPartWithSubString);
