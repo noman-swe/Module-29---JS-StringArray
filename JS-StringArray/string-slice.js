@@ -19,4 +19,19 @@ const anotherPart = anthem.substr(5, 3);
 
 // substring
 const anotherPartWithSubString = anthem.substring(5, 10);
-console.log(anotherPartWithSubString);
+// console.log(anotherPartWithSubString); 
+
+
+// concat 
+const first = 'amader';
+const second = 'city';
+const fullString = first + second;
+// concat 
+const concatString = first.concat(' ', second).concat(' ABC');
+console.log(fullString);
+console.log(concatString);
+
+// join words
+const onkWords = ['alim', 'badhon','cameron', 'dhaka', 'Edaning'];
+const allJoined = onkWords.join(' ');
+console.log(allJoined);
