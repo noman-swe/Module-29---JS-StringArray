@@ -7,5 +7,12 @@ const withoutA = anthem.toLowerCase().split('a');
 // slice()
 const starsAfterFive = anthem.slice(5);
 const starsAfter18 = anthem.slice(18);
-console.log(starsAfterFive);
-console.log(starsAfter18);
+const smallSlice = anthem.slice(5, 8)
+// console.log(starsAfterFive);
+// console.log(starsAfter18);
+console.log(smallSlice);
+
+
+// substr()
+const anotherPart = anthem.substr(5, 3);
+console.log(anotherPart);
